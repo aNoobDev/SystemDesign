@@ -1,17 +1,20 @@
 package SystemDesign.tictactoe.players;
 
+import SystemDesign.tictactoe.enums.Symbol;
+import SystemDesign.tictactoe.gameentity.Board;
+
 public class ComputerPlayer extends Player{
     
-    String symbol;
-    public ComputerPlayer(String symbol){
+    Symbol symbol;
+    public ComputerPlayer(Symbol symbol){
         this.symbol=symbol;
     }
     @Override
-    public void makeMove() {
-        
+    public void makeMove(Board b) {
+        System.out.println("Computer's Move");
     }
 
-    public String getSymbol() {
+    public Symbol getSymbol() {
         return symbol;
     }
 }
