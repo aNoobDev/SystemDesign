@@ -10,6 +10,7 @@ public class SnakeAndLaddersMain {
         System.out.println("Hellow");
         Game g= PlayerFactory.createPlayers(10,4);
         g.launchGame();
+        System.out.println("Game Ends");
         
     }
 }
