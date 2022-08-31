@@ -1,6 +1,5 @@
 package SystemDesign.snakeandladder;
 
-import SystemDesign.snakeandladder.users.Player;
 import SystemDesign.snakeandladder.factories.PlayerFactory;
 
 public class SnakeAndLaddersMain {
