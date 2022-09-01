@@ -1,13 +1,16 @@
 package SystemDesign.chessboard.entities;
 
+import SystemDesign.chessboard.Position;
+
 public class Bishop extends ChessEntity{
+
     @Override
-    public void possibleMoves() {
+    public void possibleMoves(Position position) {
         
     }
 
     @Override
-    public void move() {
+    public void getMove() {
 
     }
 

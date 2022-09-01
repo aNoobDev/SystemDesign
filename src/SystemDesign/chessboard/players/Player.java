@@ -14,5 +14,5 @@ public abstract class Player {
     Rook rook;
     Bishop bishop;
     Knight knight;
-    public abstract void makeMove(Position position);
+    public abstract void makeMove(ChessEntity chessEntity,Position position);
 }
